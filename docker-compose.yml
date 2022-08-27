@@ -7,3 +7,5 @@ services:
         - target=dev
     volumes:
       - .:/app
+    ports:
+      - "18000:80"
